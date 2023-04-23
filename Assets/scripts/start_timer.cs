@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class start_timer : MonoBehaviour
 {
     public float totalTime = 60f; // общее время в секундах
-    private float timeLeft; // оставшееся время
+    public static float timeLeft; // оставшееся время
     public Text timerText; // текстовое поле, в котором будет отображаться время
 
     void Start()

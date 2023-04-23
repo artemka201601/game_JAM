@@ -12,11 +12,11 @@ GameObject:
   - component: {fileID: -4624967523722414474}
   - component: {fileID: -1091126360706187229}
   - component: {fileID: 4750585076019046796}
-  - component: {fileID: 6842152456167945007}
   - component: {fileID: 6838710056266285748}
-  m_Layer: 7
+  - component: {fileID: -856650063522710550}
+  m_Layer: 0
   m_Name: prefab female
-  m_TagString: npc1
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -122,19 +122,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6842152456167945007
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7478261898886434508}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7832ffad74fa6fc4bad1b56071900ab3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointsToAdd: 10
 --- !u!61 &6838710056266285748
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -161,3 +148,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &-856650063522710550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7478261898886434508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 628a0f72fffc58c45bce0a3313489070, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  start_timer: {fileID: 0}
+  plus: 10
+  npcPrefab: {fileID: 7478261898886434508}

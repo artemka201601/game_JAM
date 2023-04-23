@@ -12,11 +12,11 @@ GameObject:
   - component: {fileID: -5536104278963102463}
   - component: {fileID: -7410973084324134478}
   - component: {fileID: -982299092161868935}
-  - component: {fileID: -3915905775983817447}
   - component: {fileID: 3259394136406907506}
-  m_Layer: 8
+  - component: {fileID: -9120794724215519522}
+  m_Layer: 0
   m_Name: prefab man
-  m_TagString: npc1
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -122,19 +122,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-3915905775983817447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6969576040590129633}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7832ffad74fa6fc4bad1b56071900ab3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointsToAdd: 10
 --- !u!61 &3259394136406907506
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -161,3 +148,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &-9120794724215519522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6969576040590129633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 628a0f72fffc58c45bce0a3313489070, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  start_timer: {fileID: 0}
+  plus: 10
+  npcPrefab: {fileID: 6969576040590129633}

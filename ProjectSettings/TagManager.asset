@@ -4,8 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - npc1
-  - npc2
+  - man
+  - fem
+  - pig
   layers:
   - Default
   - TransparentFX
@@ -14,10 +15,10 @@ TagManager:
   - Water
   - UI
   - NoCollision
-  - fem
-  - man
-  - pig
-  - player
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
